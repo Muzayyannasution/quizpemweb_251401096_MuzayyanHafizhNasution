@@ -1,0 +1,151 @@
+.detail-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 24px;
+}
+
+.detail-feedback {
+  width: 100%;
+  max-width: 672px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #86efac;
+  background-color: #f0fdf4;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #166534;
+}
+
+.detail-card {
+  width: 100%;
+  max-width: 672px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.detail-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detail-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.detail-title-text {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.detail-desc-box {
+  margin-top: 8px;
+  min-height: 100px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  background-color: #fafafa;
+  padding: 12px;
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.detail-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.detail-meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.meta-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.meta-value {
+  font-size: 14px;
+  color: #374151;
+}
+
+.detail-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.btn-back {
+  flex: 1;
+  padding: 7px 12px;
+  border-radius: 4px;
+  background-color: #dc2626;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn-back:hover {
+  background-color: #b91c1c;
+}
+
+.btn-update {
+  flex: 1;
+  padding: 7px 12px;
+  border-radius: 4px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn-update:hover {
+  background-color: #1d4ed8;
+}
+
+.not-found-text {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.btn-return-home {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
